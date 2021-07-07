@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/veena/.nvm/versions/node/v15.6.0/bin/node /Users/veena/.nvm/versions/node/v15.6.0/bin/yarn add @apollo/federation @apollo/gateway apollo-server-express cookie-parser dotenv esm express graphl
+
+PATH: 
+  /Users/veena/.nvm/versions/node/v15.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graphl: Not found
+      at Request.params.callback [as _callback] (/Users/veena/.nvm/versions/node/v15.6.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/veena/.nvm/versions/node/v15.6.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:379:20)
+      at Request.<anonymous> (/Users/veena/.nvm/versions/node/v15.6.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:379:20)
+      at IncomingMessage.<anonymous> (/Users/veena/.nvm/versions/node/v15.6.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:485:28)
+      at IncomingMessage.emit (node:events:391:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "Apollo_Federate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/kprabha25/Apollo_Federate.git",
+    "author": "Prabakaran <prabakaran@lookman.in>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
